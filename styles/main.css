@@ -1,0 +1,102 @@
+.pageContent {
+    width: 90%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.leftBar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: black;
+}
+
+.page__heading {
+    /* text-align: center; */
+    font-size: 1.75rem;
+    line-height: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.heading {
+    padding-bottom: 0.5rem;
+}
+
+.subHeading {
+    padding-bottom: 0.5rem;
+}
+
+.text--bold {
+    font-weight: bold;
+}
+
+.text--italic {
+    font-style: italic;
+}
+
+.section__list {
+    padding-left: 1rem;
+    padding-bottom: 1.25rem;
+    margin-left: 0.25rem;
+}
+
+.section__item {
+    padding-bottom: 0.5rem;
+}
+
+.section__text {
+    padding-bottom: 1.5rem;
+}
+
+.section__link {
+    display: block;
+}
+
+.teachingHeading {
+    font-size: 1.1rem;
+    /* padding-bottom: 1rem; */
+    padding-top: 1rem;
+    font-weight: normal;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.teaching__box {
+    /* border-top: 1px solid rgba(0, 0, 0, 0.4); */
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.4) */
+}
+
+.teaching__list {
+    margin-top: 0.5rem;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    /* margin-bottom: 1rem; */
+    /* border-top: 1px solid rgba(0, 0, 0, 0.4);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4) */
+}
+
+.teaching__courseNumber {
+    font-weight: bold;
+    padding-right: 0.5rem;
+}
+
+.committee__date {
+    font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+    .leftBar {
+        width: 30%;
+    }
+    .pageContent {
+        width: 60%;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 2rem;
+    }
+    .section__list {
+        margin-left: 1rem;
+    }
+}
