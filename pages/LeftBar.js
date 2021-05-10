@@ -24,7 +24,7 @@ p{
     flex-direction: column;
     align-items: flex-start;
     padding-top: 1rem;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
     color: black;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -33,7 +33,7 @@ p{
 .leftBar__imgDiv {
     width: 100%;
     height: 18rem;
-    margin-bottom: 2rem;
+    // margin-bottom: 2rem;
 }
 
 .leftBar__img {
@@ -41,6 +41,9 @@ p{
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+.leftBar__contact{
+    display: none;
 }
 
 .leftBar__heading {
@@ -86,10 +89,12 @@ p{
         padding-right: 2rem;
         padding-top: 2rem;
         padding-bottom: 2rem;
-        // width: 28%;
     }
     .leftBar__imgDiv {
         height: 50vh;
+    }
+    .leftBar__contact{
+        display: block;
     }
     .leftBar__img {
         width: 100%;

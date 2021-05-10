@@ -41,6 +41,7 @@
     padding-left: 1rem;
     padding-bottom: 1.25rem;
     margin-left: 0.25rem;
+    text-align: justify;
 }
 
 .section__item {
@@ -49,6 +50,7 @@
 
 .section__text {
     padding-bottom: 1.5rem;
+    text-align: justify;
 }
 
 .section__link {
