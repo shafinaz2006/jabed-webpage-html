@@ -1,5 +1,5 @@
 const headerTemplate = document.createElement('template');
-// console.log(window.location.pathname);
+
 let logoPath, menu_white;
 
 if(!window.location.pathname.includes('pages')){

@@ -1,17 +1,5 @@
 const footerTemplate = document.createElement('template');
-// let mapPath, phonePath, envelopePath;
-// if(!window.location.pathname.includes('pages')){
-    
-//     mapPath = './assets/icons/map.svg';
-//     phonePath = './assets/icons/phone.svg';
-//     envelopePath = './assets/icons/envelope.svg';
 
-// } else{
-    
-//     mapPath = '../assets/icons/map.svg';
-//     phonePath = '../assets/icons/phone.svg';
-//     envelopePath = '../assets/icons/envelope.svg';
-// }
 footerTemplate.innerHTML = `
 <style>
     p{
@@ -22,7 +10,6 @@ footerTemplate.innerHTML = `
         width: 100%;
         display: block;
         background-color: #1b263b;
-        // height: 3rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -48,10 +35,8 @@ footerTemplate.innerHTML = `
         padding-top: 0.25rem;
         
     }
-    
     .footer__address--dept {
         font-size: 1rem;
-        // font-weight: bold;
     }
     
     .footer__address--uni {
@@ -91,7 +76,7 @@ footerTemplate.innerHTML = `
         <p class='footer__address--small'>805 TRU Way, Kamloops, BC</p>
         <p class='footer__address--small'>Phone: 1.250.828.5210, Email: jtomal@tru.ca</p>
     </div>
-    <p class='footer__text'>Last updated on May 09, 2021.</p>
+    <p class='footer__text'>Last updated on June 25, 2021.</p>
     <p class='footer__text footer__copyright'>&copy Jabed Hossain Tomal. </p>
 </footer>
 `;
